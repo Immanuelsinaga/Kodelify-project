@@ -45,10 +45,10 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className="bg-transparent py-4 border-b border-white/15 md:border-none">
+    <header className="bg-transparent py-4 border-b border-white/15 md:border-none absolute top-0 left-0 w-full flex items-center z-10">
       <div className="container max-w-7xl mx-auto">
-        <div className="flex justify-between items-center relative">
-          <div className="px-4 flex">
+        <div className="flex items-center justify-between relative">
+          <div className="px-3 flex">
             <div className="ml-8 lg:ml-0 flex items-center">
               <Image
                 src={LogoIconLG}
@@ -64,8 +64,7 @@ export const Header = () => {
                 id="navbar"
                 name="button"
                 type="button"
-                className="block absolute left-4 lg:hidden"
-              >
+                className="block absolute left-4 lg:hidden">
                 <span className="line-menu transition duration-300 ease-in-out origin-top-left"></span>
                 <span className="line-menu transition duration-300 ease-in-out origin-top-left"></span>
               </button>
@@ -129,6 +128,13 @@ export const Header = () => {
                 <div className="border  absolute inset-0 border-white/40 rounded-lg [mask-image:linear-gradient(to_top, black, transparent)]"></div>
               </div>
               <span>Gabung sekarang</span>
+            </button>
+            <button className="hidden lg:block relative py-2 px-3 rounded-lg font-medium text-sm bg-gradient-to-r from-[#0d0c0e] to-[#8e8e8e] shadow-[0px_0px_12px_#8e8e8e]">
+              <div className="absolute inset-0 ">
+                <div className="border border-white/20 absolute inset-0[mask-image:linear-gradient(to_bottom, black, transparent)]"></div>
+                <div className="border  absolute inset-0 border-white/40 rounded-lg [mask-image:linear-gradient(to_top, black, transparent)]"></div>
+              </div>
+              <span>Dashbord</span>
             </button>
           </div>
         </div>
