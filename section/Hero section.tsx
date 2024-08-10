@@ -3,7 +3,7 @@ import starsBg from "@/assets/stars.png";
 export const HeroSection = () => {
   return (
     <section
-      className="pt-20 lg:pt-36 pb-10 inset-0 -z-10 w-full bg-repeat bg-right"
+      className="pt-20 lg:pt-36 pb-20 inset-0 -z-10 w-full bg-repeat bg-right"
       style={{
         backgroundImage: `url(${starsBg.src})`,
       }}
@@ -17,7 +17,7 @@ export const HeroSection = () => {
               </span>
               everything
             </h1>
-            <p className="font-light text-slate-400 text-xl mx-3">
+            <p className="font-light text-white/70 text-xl mx-3">
               Tempat para pemrograman kompetitif menunjukan skill nya
             </p>
             <div className="mt-9 flex flex-row gap-4 mx-3 justify-center lg:justify-normal">
