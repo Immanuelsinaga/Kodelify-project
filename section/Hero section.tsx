@@ -1,4 +1,7 @@
+"use client";
 import starsBg from "@/assets/stars.png";
+import { motion } from "framer-motion"
+
 
 export const HeroSection = () => {
   return (
@@ -25,7 +28,7 @@ export const HeroSection = () => {
                 href=""
                 className="relative py-3 w-1/2 text-center rounded-lg font-medium text-sm bg-gradient-to-b from-[#190d2e] to-[#4a208a] shadow-[0px_0px_12px_#8c45ff]"
               >
-                Mulai sekarang
+                Buat Akun
               </a>
             </div>
           </div>
