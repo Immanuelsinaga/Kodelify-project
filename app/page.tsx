@@ -1,7 +1,7 @@
 import { Header } from "@/section/Header";
 import { HeroSection } from "@/section/Hero section";
 import { Feature } from "@/section/Feature";
-import { Join } from "@/section/Join";
+import { MasterConcepts } from "@/section/MasterConcepts";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Feature />
-      <Join />
+      <MasterConcepts />
     </>
   );
 }
