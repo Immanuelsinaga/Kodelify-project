@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 export const HeroSection = () => {
   return (
     <section
-      className="pt-20 lg:pt-36 pb-20 inset-0 -z-10 w-full bg-repeat bg-right"
+      className="pt-20 lg:pt-36 pb-14 inset-0 -z-10 w-full bg-repeat bg-right"
       style={{
         backgroundImage: `url(${starsBg.src})`,
       }}
