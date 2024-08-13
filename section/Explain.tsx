@@ -3,7 +3,7 @@
 export const Explain = () => {
   return(
     <>
-      <div className="bg-[#101010] py-12">
+      <div className="bg-[#101010] pt-16">
         <div className="container max-w-5xl mx-auto bg-clip-text text-transparent bg-gradient-to-r from-[#DDF7F9] to-[#ddf7f9db]">
           <div className="relative flex justify-center items-center lg:pb-11 pb-5">
             <span className="text-3xl lg:text-5xl lg:mt-[40px] text-[#DDF7F9] text-center font-extrabold"> What is <br className="flex lg:hidden" />KODELIFY?</span>
