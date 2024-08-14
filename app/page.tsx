@@ -2,8 +2,9 @@ import { Header } from "@/section/Header";
 import { HeroSection } from "@/section/Hero section";
 import { Feature } from "@/section/Feature";
 import { Explain } from "@/section/Explain";
-import { NewPost } from "@/section/NewPost";
+import { WhatIn } from "@/section/WhatIn";
 import { Footer } from "@/section/Footer";
+import { Testimony } from "@/section/Testimony";
 
 export default function Home() {
   return (
@@ -12,7 +13,12 @@ export default function Home() {
       <HeroSection />
       <Feature />
       <Explain />
-      <NewPost />
+      <WhatIn />
+      <Testimony />
+
+
+
+      
       <Footer />
     </>
   );

@@ -40,15 +40,6 @@ export const Footer = () => {
 							<li className="mb-2">
 								<a className="footer-link" href="/">Enterprise</a>
 							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/">Customer stories</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/">Pricing</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/">Resources</a>
-							</li>
 						</ul>
 					</div>
 					<div className="col-span-6 md:col-span-3 lg:col-span-2">
@@ -58,36 +49,21 @@ export const Footer = () => {
 								<a className="footer-link" href="/">Developer API</a>
 							</li>
 							<li className="mb-2">
-								<a className="footer-link" href="/">Partners</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/">Atom</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/">Electron</a>
-							</li>
-							<li className="mb-2">
 								<a className="footer-link" href="/">GitHub Desktop</a>
 							</li>
 						</ul>
 					</div>
 					<div className="col-span-6 md:col-span-3 lg:col-span-2">
-						<div className="footer-title :text-slate-200">Support</div>
+						<div className="footer-title :text-slate-200">Social Media</div>
 						<ul className="text-sm">
 							<li className="mb-2">
-								<a className="footer-link" href="/">Docs</a>
+								<a className="footer-link" href="/">Instagram</a>
 							</li>
 							<li className="mb-2">
-								<a className="footer-link" href="/">Community Forum</a>
+								<a className="footer-link" href="/">Twitter</a>
 							</li>
 							<li className="mb-2">
-								<a className="footer-link" href="/">Professional Services</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/">Skills</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/">Status</a>
+								<a className="footer-link" href="/">Github</a>
 							</li>
 						</ul>
 					</div>
@@ -102,18 +78,6 @@ export const Footer = () => {
 							</li>
 							<li className="mb-2">
 								<a className="footer-link" href="/"> Careers</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/">Press</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/"> Inclusion</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/"> Social Impact</a>
-							</li>
-							<li className="mb-2">
-								<a className="footer-link" href="/"> Shop</a>
 							</li>
 						</ul>
 					</div>
