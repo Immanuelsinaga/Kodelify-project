@@ -1,6 +1,6 @@
 
 
-export const NewPost = () => {
+export const WhatIn = () => {
   return(
     <>
       <div className="bg-[#101010] pt-16 pb-10">

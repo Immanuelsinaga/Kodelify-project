@@ -22,6 +22,25 @@ body {
 	@apply transition ease-in-out -rotate-45 my-2;
 }
 
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide-left {
+	display: flex;
+  animation: slide-left 40s linear infinite;
+}
+
+.group:hover .animate-slide-left {
+  animation-play-state: paused;
+}
+
+
 .footer-title {
 	@apply text-slate-700 font-medium my-2;
 }
