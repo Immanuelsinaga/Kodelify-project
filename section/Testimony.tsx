@@ -1,4 +1,5 @@
 import immanuel from "@/assets/Immanuel.jpg";
+import fauzan from "@/assets/Fauzan.jpg";
 import NoProfile from "@/assets/NoProfile.jpg";
 
 const testimonials = [
@@ -12,7 +13,7 @@ const testimonials = [
     name: "Fauzan Al-anshori",
     institution: "Institut Teknologi Sepuluh Nopember",
     testimony: "Materi yang diajarkan di Kodelify sangat relevan dan mudah dimengerti. Pengajar-pengajarnya memiliki skill yang sesuai dan berkelas! Pengalaman menggunakan Kodelify juga sangat unik dan eksklusif. Pokoknya nyaman banget dan emang se-worth it itu!",
-    imageSrc: NoProfile,
+    imageSrc: fauzan,
   },
   {
     name: "Muhammad Nur Azis",
