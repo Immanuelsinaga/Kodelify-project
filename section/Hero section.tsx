@@ -1,5 +1,6 @@
 "use client";
 import starsBg from "@/assets/stars.png";
+import HerSec from "@/assets/hero-section.png";
 import { motion } from "framer-motion"
 
 
@@ -34,9 +35,9 @@ export const HeroSection = () => {
           </div>
           <div className="w-full lg:w-1/2 px-auto mt-9 md:mt-3 lg:mt-7 lg:mt-0 order-first lg:order-last">
             <img
-              src="https://gradient.academy/_next/image?url=https%3A%2F%2Fassets.gradient.academy%2Fassets%2Flanding-unregistered-hero.png&w=2048&q=75"
+              src={HerSec.src}
               alt="Kodelify Hero section"
-              className="mx-auto shadow-xl w-3/4 mt-5 lg:-mt-5 block"
+              className="mx-auto shadow-xl w-3/4 mt-5 lg:-mt-5 block lg:w-[700px]"
             />
           </div>
         </div>
