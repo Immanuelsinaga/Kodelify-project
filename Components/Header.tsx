@@ -75,7 +75,7 @@ export const Header = () => {
                 <ul className="block lg:flex">
                   <li className="group flex items-center">
                     <a
-                      href="#"
+                      href="/"
                       className="flex items-center font-semibold text-slate-500 py-2 mx-5 group-hover:text-slate-200 transition"
                     >
                       <div className="fill-slate-500 mr-2 group-hover:fill-slate-200">
@@ -108,7 +108,7 @@ export const Header = () => {
                   </li>
                   <li className="group flex items-center">
                     <a
-                      href="#"
+                      href="/blog/"
                       className="flex items-center font-semibold text-slate-500 py-2 mx-5 group-hover:text-slate-200 transition"
                     >
                       <div className="fill-slate-500 mr-2 group-hover:fill-slate-200">
