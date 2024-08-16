@@ -42,7 +42,7 @@ export const Feature = () => {
                 </h3>
                 </div>
               </div>
-              <div className="hidden md:block rounded-2xl px-3 py-4 bg-transparent lg:border lg:border-slate-200/20 hover:shadow-lg active:scale-95 transition-all active:shadow-sm sm:flex items-center space-x-4 cursor-pointer">
+              <div className="hidden  md:hidden lg:block rounded-2xl px-3 py-4 bg-transparent lg:border lg:border-slate-200/20 hover:shadow-lg active:scale-95 transition-all active:shadow-sm sm:flex items-center space-x-4 cursor-pointer">
                 <div className="flex flex-col sm:flex-row w-full text-center justify-center items-center">
                   <span className="flex items-center justify-center p-2 rounded-md shadow-lg text-white">
                   <DSLogo className="w-7 h-7"/>
