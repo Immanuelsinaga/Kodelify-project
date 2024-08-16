@@ -1,4 +1,4 @@
-"use client"; // Menyatakan bahwa ini adalah komponen klien
+"use client";
 
 import { useEffect } from "react";
 import LogoIconLG from "@/assets/logo.png";
