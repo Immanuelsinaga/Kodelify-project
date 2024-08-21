@@ -21,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={twMerge(inter.className, "bg-black text-white")}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

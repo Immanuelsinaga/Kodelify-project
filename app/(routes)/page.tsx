@@ -5,19 +5,19 @@ import { WhatIn } from "@/section/WhatIn";
 import { Testimony } from "@/section/Testimony";
 import { Header } from "@/section/Header";
 import { Footer } from "@/section/Footer";
+import { NewPost } from "@/section/NewPost";
 
-export default function Home() {
+const Home = async () => {
   return (
     <>
-    <Header />
     <HeroSection />
     <Feature />
     <Explain />
     <WhatIn />
     <Testimony />
-
-
-    <Footer />
+    <NewPost />
     </>
   );
-}
+};
+
+export default Home;

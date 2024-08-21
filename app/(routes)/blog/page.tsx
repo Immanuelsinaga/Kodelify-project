@@ -11,9 +11,7 @@ export const metadata: Metadata = {
 export default function Blog(){
   return(
     <>
-    <Header />
     <NewPost />
-    <Footer />
     </>
   );
 }
