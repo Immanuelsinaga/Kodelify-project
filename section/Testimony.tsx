@@ -29,7 +29,7 @@ const testimonials = [
 export const Testimony = () => {
   return (
     <>
-      <section id="testimony" className="bg-[#101010] flex flex-col gap-5 py-9 md:py-16">
+      <section id="testimony" className="bg-[#101010] flex flex-col gap-5 py-9 md:pt-16">
         <h2 className="font-sans text-xl font-bold text-center">Kata mereka yang belajar bersama Kodelify</h2>
         <div className="overflow-hidden flex group">
           <div className="flex gap-5 md:gap-6 px-[10px] md:px-3 animate-slide-left">
